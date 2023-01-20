@@ -1,0 +1,38 @@
+/*  MAIN  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: #353A4A;
+}
+
+h1, h2, h3 {
+    font-weight: 100;
+    font-size: 5rem;
+    color: #B9FAF8;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+/*  CLASSES  */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
