@@ -13,10 +13,17 @@ body {
     background-color: #353A4A;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-weight: 100;
-    font-size: 5rem;
     color: #B9FAF8;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4rem;
 }
 
 p {
@@ -25,14 +32,51 @@ p {
     color: white;
 }
 
+nav {
+    background-color: #262a36;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: white;
+    transition: 100ms ease-in;
+}
+
+li:hover {
+    color: #8aa2d3;
+    cursor: pointer;
+}
+
 
 /*  CLASSES  */
 
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.page_selected {
+    color: #8aa2d3;
+}
+
+
+/*  IDs  */
+
+#myfocus_title {
+    margin-bottom: 2rem;
 }
